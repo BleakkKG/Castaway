@@ -66,11 +66,12 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 100%
     
 }
 .banner-text___title{
     font-family: DM Sans;
-    font-size: 70px;
+    font-size: 80px;
     font-weight: 400;
     line-height: 88px;
     letter-spacing: 3.200000047683716px;
@@ -78,10 +79,26 @@ a {
 
 }
 .banner-text__title-highlight{
-    font-size: 80px;
+    font-size: 90px;
 }
 .banner-text___social-media{
     margin-top: 80px;
+    height: 10%;
+    display: flex;
+    font-size: 30px;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 30%;
+
+}
+.banner-icons{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+.banner-icon{
+    font-size: 25px;
 }
 /* Latest episodes */
 
@@ -262,7 +279,7 @@ a {
 .recommendation-card{
     display: flex;
     flex-direction: column;
-    width: 32%;
+    width: 31%;
     background-color: #000000;
     height: 423px;
     justify-content: space-around;
@@ -309,4 +326,23 @@ a {
 }
 .footer-navigation__list-item{
     margin-bottom: 10px;
+}
+
+.fa-spotify:hover{
+    color: #1ED760;
+}
+.fa-youtube:hover{
+    color: #F43E37;
+}
+.fa-gratipay:hover{
+    color:rgba(255, 255, 255, 0.7);
+}
+.footer-icons{
+    display: flex;
+    width: 20%;
+    justify-content: space-around;
+} 
+.footer-icon{
+    font-size: 30px;
+    ;
 }
